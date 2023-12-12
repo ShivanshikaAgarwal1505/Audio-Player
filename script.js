@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
       toggleBtn.textContent = "Play";
     }
   }
-
+ 
   function stopAudio() {
     audio.pause();
     audio.currentTime = 0;

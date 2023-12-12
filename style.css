@@ -1,25 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+:root {
+    --background: #000000;
+    --secondary: #2d3436;
+    --text: #cec7bf;
+}
 *{
     box-sizing: border-box;
 }
 body{
     font-family: 'Exo', sans-serif;
-    font-family: Arial, sans-serif;
+    background-image: linear-gradient(315deg, var(--secondary) , var(--background));
+    background-color: #2d3436;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
 }
-
+/* 
 .audio-player {
     text-align: center;
 }
 
-.controls {
+.controls { 
     margin-top: 10px;
 }
 
 button {
     cursor: pointer;
+} */
+.shadow{
+    background-color: var(--secondary);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    filter: blur(10px);
+}
+.back-btn{
+    border: var(--secondary) 1px solid;
 }
